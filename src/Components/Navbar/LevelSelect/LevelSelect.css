@@ -1,0 +1,48 @@
+.level-select-container {
+  position: fixed;
+  right: 0;
+  top: 87px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  filter: drop-shadow(1px 1px 2px var(--dark));
+}
+
+.nineButtons {
+  width: 9%;
+}
+
+.fiveButtons {
+  width: 16.6%;
+}
+
+.selectedButton {
+  background-color: var(--secondary);
+}
+
+.selectedButton:hover {
+  border-color: var(--primary);
+}
+
+.nonSelectedButton {
+  background-color: var(--dark);
+}
+
+.nonSelectedButton:hover {
+  border-color: var(--light);
+}
+
+@media screen and (min-width: 600px) {
+  .level-select-container {
+    top: 90px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .level-select-container {
+    top: 92px;
+  }
+}
