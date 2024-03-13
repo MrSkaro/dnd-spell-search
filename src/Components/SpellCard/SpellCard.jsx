@@ -2,22 +2,22 @@ import ShowMoreText from "react-show-more-text";
 import "./SpellCard.css";
 
 export default function SpellCard({ spell }) {
-  const schoolImages = {
-    abjuration: require("./SpellImages/abjuration.png"),
-    conjuration: require("./SpellImages/conjuration.png"),
-    divination: require("./SpellImages/divination.png"),
-    enchantment: require("./SpellImages/enchantment.png"),
-    evocation: require("./SpellImages/evocation.png"),
-    illusion: require("./SpellImages/illusion.png"),
-    necromancy: require("./SpellImages/necromancy.png"),
-    transmutation: require("./SpellImages/transmutation.png"),
-  };
+  // const schoolImages = {
+  //   abjuration: require("./SpellImages/abjuration.png"),
+  //   conjuration: require("./SpellImages/conjuration.png"),
+  //   divination: require("./SpellImages/divination.png"),
+  //   enchantment: require("./SpellImages/enchantment.png"),
+  //   evocation: require("./SpellImages/evocation.png"),
+  //   illusion: require("./SpellImages/illusion.png"),
+  //   necromancy: require("./SpellImages/necromancy.png"),
+  //   transmutation: require("./SpellImages/transmutation.png"),
+  // };
 
-  const schoolImage = schoolImages[spell.school.name.toLowerCase()];
+  // const schoolImage = schoolImages[spell.school.name.toLowerCase()];
 
   return (
     <li className="spell-card">
-      <img src={schoolImage} alt={spell.school.name} className="school-img" />
+      {/* <img src={schoolImage} alt={spell.school.name} className="school-img" /> */}
       <hgroup>
         <h4>{spell.name}</h4>
         <small>
