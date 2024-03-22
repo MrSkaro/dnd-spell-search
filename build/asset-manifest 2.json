@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b396d49.css",
+    "main.js": "/static/js/main.ea96bfde.js",
+    "static/js/453.508a6599.chunk.js": "/static/js/453.508a6599.chunk.js",
+    "static/media/evocation.png": "/static/media/evocation.11c3a56512ddb117be98.png",
+    "static/media/illusion.png": "/static/media/illusion.a7575cf465d89ef3f2bb.png",
+    "static/media/enchantment.png": "/static/media/enchantment.05a2612919da66f003fa.png",
+    "static/media/abjuration.png": "/static/media/abjuration.52375f3dbad2385e0123.png",
+    "static/media/conjuration.png": "/static/media/conjuration.86a780a01d11c764dc26.png",
+    "static/media/divination.png": "/static/media/divination.0138e6278b7042f3126d.png",
+    "static/media/necromancy.png": "/static/media/necromancy.5903bf7bf738f62760ba.png",
+    "static/media/transmutation.png": "/static/media/transmutation.b8fac0508a7815c7e203.png",
+    "index.html": "/index.html",
+    "main.9b396d49.css.map": "/static/css/main.9b396d49.css.map",
+    "main.ea96bfde.js.map": "/static/js/main.ea96bfde.js.map",
+    "453.508a6599.chunk.js.map": "/static/js/453.508a6599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b396d49.css",
+    "static/js/main.ea96bfde.js"
+  ]
+}
